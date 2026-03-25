@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+qiskit_venv/
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+# --- Qiskit & IBM Quantum ---
+# Pliki konfiguracyjne z tokenami (jeśli używasz qiskit-ibm-runtime lokalnie)
+qiskitrc
+.qiskit/
+ibm_quantum_tokens.txt
+
+# --- Systemowe (macOS) ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# --- IDE (VS Code / PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo

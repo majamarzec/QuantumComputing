@@ -1,0 +1,25 @@
+[project]
+name = "practical-quantum-computing"
+version = "0.1.0"
+description = "Notatniki z zajęć Practical Quantum Computing"
+authors = [
+    {name = "Maja"}
+]
+
+dependencies = [
+    "qiskit>=2.3.0",
+    "qiskit-aer>=0.17.2",
+    "qiskit-ibm-runtime>=0.45.1",
+    "matplotlib>=3.10.8",
+    "pylatexenc>=2.10", # Potrzebne do rysowania obwodów (mpl)
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "ipykernel>=7.2.0",
+]
+
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [] # Pozostaw puste, jeśli trzymasz tu głównie pliki .ipynb
